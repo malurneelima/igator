@@ -6,6 +6,8 @@ public class MyCompany {
 	private String address;
 	private String company;
 	private int salary;
+	private int age;
+	
 	public String getName() {
 		return name;
 	}
