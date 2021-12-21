@@ -7,6 +7,7 @@ public class MyCompany {
 	private String company;
 	private int salary;
 	private int age;
+	private int experience;
 	
 	public String getName() {
 		return name;
@@ -31,6 +32,18 @@ public class MyCompany {
 	}
 	public void setSalary(int salary) {
 		this.salary = salary;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public int getExperience() {
+		return experience;
+	}
+	public void setExperience(int experience) {
+		this.experience = experience;
 	}
 	
 	
