@@ -9,6 +9,7 @@ public class MyCompany {
 	private int age;
 	private int experience;
 	
+	
 	public String getName() {
 		return name;
 	}
@@ -44,6 +45,11 @@ public class MyCompany {
 	}
 	public void setExperience(int experience) {
 		this.experience = experience;
+	}
+	@Override
+	public String toString() {
+		return "MyCompany [name=" + name + ", address=" + address + ", company=" + company + ", salary=" + salary
+				+ ", age=" + age + ", experience=" + experience + "]";
 	}
 	
 	
