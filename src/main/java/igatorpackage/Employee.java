@@ -1,7 +1,7 @@
 package igatorpackage;
 
 public class Employee {
-	
+	//comment
 	private String name;
 	private String address;
 	private String company;
