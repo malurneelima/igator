@@ -6,7 +6,7 @@ public class MyCompany {
 	private String address;
 	private String company;
 	private int salary;
-	private int age;
+	private int doubleage;
 	private int experience;
 	
 	
@@ -34,11 +34,12 @@ public class MyCompany {
 	public void setSalary(int salary) {
 		this.salary = salary;
 	}
-	public int getAge() {
-		return age;
+	
+	public int getDoubleage() {
+		return doubleage;
 	}
-	public void setAge(int age) {
-		this.age = age;
+	public void setDoubleage(int doubleage) {
+		this.doubleage = doubleage;
 	}
 	public int getExperience() {
 		return experience;
@@ -46,11 +47,7 @@ public class MyCompany {
 	public void setExperience(int experience) {
 		this.experience = experience;
 	}
-	@Override
-	public String toString() {
-		return "MyCompany [name=" + name + ", address=" + address + ", company=" + company + ", salary=" + salary
-				+ ", age=" + age + ", experience=" + experience + "]";
-	}
+
 	
 	
 
