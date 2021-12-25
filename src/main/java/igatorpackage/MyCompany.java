@@ -1,7 +1,7 @@
 package igatorpackage;
 
 public class MyCompany {
-	
+	//change3
 	private String name;
 	private String address;
 	private String company;
