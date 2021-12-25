@@ -1,7 +1,7 @@
 package igatorpackage;
 
 public class MyCompany {
-	
+	//commit1
 	private String name;
 	private String address;
 	private String company;
