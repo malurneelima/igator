@@ -1,14 +1,13 @@
 package igatorpackage;
 
 public class MyCompany {
-	//change3
+	
 	private String name;
 	private String address;
 	private String company;
-	private double salary;
+	private int salary;
 	private int age;
 	private int experience;
-	private String surName;
 	
 	
 	public String getName() {
@@ -29,7 +28,7 @@ public class MyCompany {
 	public void setCompany(String company) {
 		this.company = company;
 	}
-	public double getSalary() {
+	public int getSalary() {
 		return salary;
 	}
 	public void setSalary(int salary) {
