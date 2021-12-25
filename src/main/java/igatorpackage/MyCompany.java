@@ -5,7 +5,7 @@ public class MyCompany {
 	private String name;
 	private String address;
 	private String company;
-	private int salary;
+	private double salary;
 	private int age;
 	private int experience;
 	
@@ -28,10 +28,10 @@ public class MyCompany {
 	public void setCompany(String company) {
 		this.company = company;
 	}
-	public int getSalary() {
+	public double getSalary() {
 		return salary;
 	}
-	public void setSalary(int salary) {
+	public void setSalary(double salary) {
 		this.salary = salary;
 	}
 	public int getAge() {
