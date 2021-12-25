@@ -2,6 +2,7 @@ package igatorpackage;
 
 public class MyCompany {
 	//commit1
+	//commit2
 	private String name;
 	private String address;
 	private String company;
