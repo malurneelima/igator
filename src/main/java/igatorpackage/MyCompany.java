@@ -8,6 +8,7 @@ public class MyCompany {
 	private int salary;
 	private int age;
 	private int experience;
+	private String surName;
 	
 	
 	public String getName() {
