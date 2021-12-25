@@ -5,7 +5,7 @@ public class MyCompany {
 	private String name;
 	private String address;
 	private String company;
-	private double salary;
+	private int salary;
 	private int age;
 	private int experience;
 	private String surName;
